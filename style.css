@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: "poppins", serif;
+}
+.Logo{
+width:45px ;
+height: 45px;
+
+}
+body{
+background-color: #222831;
+
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 2rem auto ;
+max-width: 1200px;
+padding: 0 0,5rem;
+}
+.navigation ul{
+display: flex;
+list-style-type: none;
+gap: 2rem;
+}
+.navigation a{
+text-decoration: none;
+color: #eeeeee;
+
+}
+.navigation a:hover{
+  color:#00adb5 ;
+    
+ }
+hr{
+opacity:40% ;
+
+
+}
+.hero{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5rem auto;
+max-width: 1200px;
+}
+.arrow{
+position: absolute;
+transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.herosup {
+display: flex;
+gap: .5rem;
+flex-direction: column;
+}
+.name{
+    font-size: 3rem;
+    color: #eeeeee;
+    }
+    .title{
+    font-size: 4rem;
+    color: #00adb5;
+    }
+.herobtns{
+display: flex;
+gap: 1rem;
+margin-top: 1.;
+
+}    
+.ContactMe{
+background-color: #00adb5;
+color: #eeeeee;
+border-radius: 24px;
+text-decoration: none;
+padding: 0.5rem 1.5rem;
+text-shadow: 0px 4px 4px rgba(red, green, blue, alpha);
+}
+.Cv{
+background-color: rgb(23, 65, 94);
+color: #eeeeee;
+text-decoration: none;
+border-radius: 24px;
+padding: 0.5rem 1.5rem;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+backdrop-filter: blur(4px);
+text-shadow: 0 4px 4px rgba(red, green, blue, alpha);
+}
+.aboutme{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 5rem auto;
+max-width: 1200px;
+gap: 10rem;
+}
+.container
+{
+display: flex;
+flex-direction: column;
+
+}
+.texttitle{
+display: flex;
+align-items: center;
+gap: 5px;
+font-size: 2rem;
+}
+.aboutmepar{
+text-align: justify;
+color:rgba(238, 238, 238, 0.75) ;
+}
+.aboutTitle{
+color: #00adb5;
+
+}
+.Title{
+color: #eeeeee;
+text-align: center;
+gap: 5px;
+f
+}
+.Titlenames{
+color: #00adb5;
+text-align: center;
+gap: 5px;
+}
+.aboutname{
+color: #eeeeee;
+}
+.Contactcontainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+gap:2rem ;
+max-width: 1200px;
+margin: 2rem auto;
+}
+.ContactTitle{
+display: flex;
+align-items: center;
+gap: 5px;
+justify-content: center;
+margin-bottom: 10px;
+font-size: 2rem;
+}
+.Contact{
+display: flex;
+align-items: center;
+justify-content: center ;
+margin-right: 5rem;
+gap: 20rem;
+}
+.Contact h3, .Contact a{
+color: #eeeeee;
+text-decoration: none;
+}
+.a{
+color: #eeeeee;
+text-decoration: none;
+}
+.socialmedia a{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+background-color: rgba(57, 62, 70, 0.5);
+backdrop-filter: blur(4px);
+padding: 1rem;
+}
+.socialmedia{
+width:  24px;
+height: 24px;
+}
+footer{
+color: #eeeeee;
+padding: 2rem;
+align-items: center;
+}
+@media (max-width: 1023px){
+header{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.hero{
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+
+}
+.hero img{
+width: 400px;
+height: 300px;
+}
+.herosup, h1{
+flex-wrap: wrap;
+align-items: center;
+justify-content: ;
+}
+.herobtns, a{
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.name, .Title{
+font-size: 2rem;
+}
+.arrow{
+  display: none;
+}
+.aboutme{
+flex-direction: column-reverse;
+align-items: center;
+gap: 2rem;
+flex-wrap: wrap;
+}
+.container{
+align-items: center;
+margin: 0rem 5rem;
+gap: 1rem;
+}
+.aboutname, .aboutTitle{
+font-size: 2rem;
+}
+.ligth{
+width: 60px;
+}
+.aboutme img{
+width: 400px;
+
+}
+.Contactcontainer{
+margin: 10rem 5rem;
+gap: 2rem;
+}
+.Contact{
+flex-direction: column;
+gap: 1rem;
+margin-right: 0;
+}
+
+
+}header, img{
+size: 50px;
+
+}
